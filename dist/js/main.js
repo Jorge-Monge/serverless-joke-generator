@@ -2,12 +2,8 @@ let counter = 0;
 
 const getRandomDadJoke = async () => {
   counter += 1;
-  const url = "https://icanhazdadjoke.com";
-  const jokeStream = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-    },
-  });
+  const url = "/.netlify/functions/jokes";
+  const jokeStream = await fetch(url);
   const jsonJoke = await jokeStream.json();
   return jsonJoke.joke;
 };

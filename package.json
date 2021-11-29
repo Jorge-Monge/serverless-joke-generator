@@ -1,0 +1,22 @@
+{
+  "name": "coordinate_conversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge-Monge/serverless-joke-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge-Monge/serverless-joke-generator/issues"
+  },
+  "homepage": "https://github.com/Jorge-Monge/serverless-joke-generator#readme",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  }
+}
